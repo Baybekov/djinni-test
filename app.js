@@ -123,9 +123,11 @@ let isDarkModeActive = false;
 darkModeBtn.addEventListener('click', () => {
   if (isDarkModeActive) {
     document.body.classList.remove("dark");
+	darkModeBtn.innerHTML = '<i class="bi bi-moon"></i>Dark Mode';
     isDarkModeActive = false;
   } else {
     document.body.classList.add("dark");
+	darkModeBtn.innerHTML = '<i class="bi bi-brightness-high"></i>Light Mode';
     isDarkModeActive = true;
   }
 });
