@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap");
+* {
+	font-family: "Commissioner";
+	font-weight: 400;
+}
+
+h1 {
+	font-family: "Commissioner";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 150%;
+	color: #292929;
+}
+
+.main-bg-color {
+	background-color: #ed7135;
+}
+
+.darkFont {
+	color: #292929;
+}
+
+.secondary {
+	color: #666666;
+}
+
+.active {
+	position: relative;
+	display: inline-block;
+}
+.active::before {
+	content: "";
+	position: absolute;
+	top: 55px;
+	width: 80%;
+	border-bottom: 2px solid #ed7135;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+	color: #ed7135;
+}
+
+a {
+	color: #ed7135;
+}
+
+a:hover {
+	color: #ed7135;
+}
+
+.form-control {
+	background: #eeeeee;
+	border-radius: 100px;
+}
+
+.icon-white {
+	color: white;
+}
+
+.btn-group .btn:nth-child(1) {
+	border-radius: 8px;
+}
+.btn-group .btn:nth-child(2) {
+	border: 2px solid #ebebeb;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.items {
+	font-size: 14px;
+}
+
+.more-desc {
+	display: none;
+}
+
+body.dark {
+	background-color: black;
+	color: white;
+}
+
+body.dark .darkFont {
+	color: white;
+}
+body.dark .secondary {
+	color: white;
+}
+body.dark h1 {
+	color: white;
+}
+
+body.dark button {
+	color: white;
+}

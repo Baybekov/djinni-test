@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend assignment @ djinni.co </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="">
+
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 fw-bold darkFont active">Photos</a></li>
+                    <li><a href="#" class="nav-link px-2 secondary">Videos</a></li>
+                    <li><a href="#" class="nav-link px-2 secondary">Podcasts</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-6 mb-3 mb-lg-0 me-lg-3 pt-5 pt-lg-0 pt-xl-0 pt-xxl-0">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0 align-items-center">
+                    <a href="#" class="d-block secondary text-decoration-none dropdown-toggle px-2" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">Українська</a></li>
+                        <li><a class="dropdown-item" href="#">Polska</a></li>
+                    </ul>
+                    <a href="#" class="nav-link px-2 secondary">Sign in</a>
+                    <a href="#" class="nav-link px-2 secondary" id="darkmode"><i class="bi bi-moon"></i>Dark Mode</a>
+                </ul>
+
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row pt-4 gx-5 row-cols-auto">
+                <div class="d-flex flex-column pt-3 col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3	col-xxl-3">
+                    <button type="button" class="btn d-flex main-bg-color fw-bold text-white"><i
+                            class="bi bi-image pe-2 icon-white"></i>All photos</button>
+                    <button type="button" class="btn d-flex fw-bold secondary"><i
+                            class="bi pe-2 bi-emoji-smile"></i>Selfies</button>
+                    <button type="button" class="btn d-flex fw-bold secondary"><i
+                            class="bi pe-2 bi-clock"></i>Recent</button>
+                    <button type="button" class="btn d-flex fw-bold secondary"><i
+                            class="bi pe-2 bi-trash"></i>Deleted</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9	col-xxl-9">
+                    <div class="d-flex justify-content-between align-items-center flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row">
+                        <div>
+                            <h1>
+                                All photos
+                            </h1>
+                        </div>
+                        <div>
+                            <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-darkFont">Newest</button>
+                                <button type="button" class="btn btn-white">Latest</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="secondary items">
+                            150 items
+                        </span>
+                    </div>
+                    <div id="cards-container" class="row gy-5 pt-4">
+                    </div>
+                    <!-- <div class="row gy-5 pt-4">
+                        <div class="col-6">
+                            <div class=" border border-1 rounded">
+                                <img src="https://images.unsplash.com/flagged/1/apple-gear-looking-pretty.jpg"
+                                    class="img-fluid" alt="...">
+                                <div class="d-flex flex-column p-3">
+                                    <h2>Heading</h2>
+                                    <p>
+                                        Here goes some sample, example text that is relatively short.
+                                    </p>
+                                </div>
+                                <div class="d-flex p-3">
+                                    <button type="button" class="btn main-bg-color text-white">Save to
+                                        collection</button>
+                                    <button type="button" class="btn btn-darkFont">Share</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
