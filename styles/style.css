@@ -98,5 +98,6 @@ body.dark button {
 @media (max-width: 768px) {
 	.me-1 {
 		margin-right: 0 !important;
+		margin-bottom: 1rem;
 	}
 }

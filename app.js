@@ -8,7 +8,7 @@ let isLoading = false;
 // функция для создания карточки
 function createCard(photo) {
 	const card = document.createElement("div");
-	card.className = "col-6";
+	card.className = "col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6";
 
 	const cardDiv = document.createElement("div");
 	cardDiv.className = "border border-1 rounded";
