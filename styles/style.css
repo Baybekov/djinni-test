@@ -94,3 +94,9 @@ body.dark h1 {
 body.dark button {
 	color: white;
 }
+
+@media (max-width: 768px) {
+	.me-1 {
+		margin-right: 0 !important;
+	}
+}

@@ -35,7 +35,7 @@ function createCard(photo) {
 	moreBtn.textContent = "Show more...";
 
 	const actions = document.createElement("div");
-	actions.className = "d-flex p-3";
+	actions.className = "d-flex p-3 flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row";
 	const saveBtn = document.createElement("button");
 	saveBtn.className = "btn main-bg-color text-white me-1";
 	saveBtn.textContent = "Save to collection";
